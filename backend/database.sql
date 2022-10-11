@@ -1,0 +1,6 @@
+CREATE DATABASE todoapp;
+
+CREATE TABLE todolist(
+  task_id SERIAL PRIMARY KEY,
+  task VARCHAR(255)
+);
